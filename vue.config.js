@@ -2,7 +2,7 @@
 module.exports = {
   configureWebpack: {
     output: {
-      hashFunction: 'xxhash64', // Use a supported hash function
+      hashFunction: 'md4', // Use 'md4' for compatibility
     },
   },
 };
